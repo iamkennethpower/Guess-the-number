@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Number Guessing Game</title>
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  >
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1 class="animate__animated animate__rotateIn">GUESS THE NUMBER</h1>
+	<div id="wrapper">
+		<p>Guess a random number between 1 to 10</p>
+		<p>"5 attempts to guess the right number" </p>
+		<div class="form">
+			<input type="text" id="guessField" class="guessField"><br>
+			<input type="submit" id="subt" value="Submit" class="guessSubmit btn btn-outline-primary btn-lg">
+			
+		</div>
+		<div class="resultParas">
+			<p class="guesses"></p>
+			<p class="lastResult"></p>
+			<p class="lowOrHigh"></p>
+		</div>
+	</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
